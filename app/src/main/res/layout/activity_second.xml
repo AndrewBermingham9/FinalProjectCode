@@ -4,102 +4,134 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".SecondActivity">
+
 
     <TextView
         android:id="@+id/MSTtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Shot Tracker"
-        android:textSize="32sp"
+        android:textColor="#090909"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <Button
-        android:id="@+id/SetHomeCoursebtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="Set Home Course"
-        app:layout_constraintBottom_toTopOf="@+id/MyLeaguesbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
-
-    <Button
-        android:id="@+id/UploadNewScorebtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="Upload New Score"
-        app:layout_constraintBottom_toTopOf="@+id/ViewHandicapbtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
-
-    <Button
-        android:id="@+id/MyLeaguesbtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="My Leagues"
+        android:id="@+id/UploadScorebtn"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
+        android:text="Upload Competition Score"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.216" />
 
     <Button
-        android:id="@+id/ViewHandicapbtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="View Handicap"
+        android:id="@+id/MultiPlayerbtn"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
+        android:text="New Friendly Game"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.77"
-        app:layout_constraintStart_toEndOf="@+id/MyLeaguesbtn"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.394" />
 
     <Button
         android:id="@+id/CourseOverviewbtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
         android:text="Course Overview"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="0.577" />
 
     <Button
         android:id="@+id/MyGoalsbtn"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
         android:text="My Goals"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="@+id/CourseOverviewbtn"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="0.394" />
 
     <Button
         android:id="@+id/Logoutbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
         android:text="Logout"
+        android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" />
+        app:layout_constraintVertical_bias="0.758" />
+
+    <Button
+        android:id="@+id/Profilebtn"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
+        android:text="My Profile"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
+
+    <Button
+        android:id="@+id/CourseTipsbtn"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
+        android:text="Course Tips"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <Button
+        android:id="@+id/ScoreViewbtn"
+        android:layout_width="235dp"
+        android:layout_height="55dp"
+        android:background="@drawable/home_button"
+        android:text="Scoring History"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
 </androidx.constraintlayout.widget.ConstraintLayout>

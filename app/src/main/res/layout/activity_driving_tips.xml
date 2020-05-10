@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PuttingTips">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/DrivingTipsTitletv"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="212dp"
+                android:layout_marginLeft="212dp"
+                android:layout_marginEnd="212dp"
+                android:layout_marginRight="212dp"
+                android:layout_marginBottom="85dp"
+                android:text="Driving Tips"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DrivingTipsSubTitletv"
+                android:layout_width="537dp"
+                android:layout_height="106dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="139dp"
+                android:layout_marginLeft="139dp"
+                android:layout_marginEnd="132dp"
+                android:layout_marginRight="132dp"
+                android:layout_marginBottom="85dp"
+                android:text="Driving is a fundamental part of a good round of golf. See these tips on how you can make changes for the better"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/DrivingDrill1Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="1. Tee the ball high"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/driving3imagepix" />
+
+            <TextView
+                android:id="@+id/DrivingDrill1text"
+                android:layout_width="wrap_content"
+                android:layout_height="215dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/drivingdesciption"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/DrivingDrill2Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="2. Shifting your weight"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/driving2imagepix" />
+
+            <TextView
+                android:id="@+id/DrivingDrill2text"
+                android:layout_width="wrap_content"
+                android:layout_height="259dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/drivingdesciption2"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/DrivingDrill3Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="3. Do not swing too hard!"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/driving4imagepix" />
+
+            <TextView
+                android:id="@+id/Drill3text"
+                android:layout_width="580dp"
+                android:layout_height="184dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/drivingdescription3"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/DrivingDrill4Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="4. Play your natural shot shape"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/driving5imagepix" />
+
+            <TextView
+                android:id="@+id/DrivingDrill4text"
+                android:layout_width="601dp"
+                android:layout_height="197dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/drivingdescription4"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Backbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back to Home Page"
+                android:layout_gravity="center"
+                android:layout_marginBottom="150dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

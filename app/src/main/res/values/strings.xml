@@ -1,3 +1,370 @@
 <resources>
-    <string name="app_name">ProjectPrototype</string>
+    <string name="app_name">My Shot Tracker</string>
+    <string name="puttingdesciption">When you shoot a free throw in basketball you use your left hand as a guide. The same is true when on the greens of a golf course. The left hand is the direction hand and is just as important as the right. Practice putting left-hand-only or have someone hold a club in front of your hands on the target line. Bump the grip with the back of your hand and not your fingers.</string>
+    <string name="puttingdesciption2">The key to distance control is to roll the ball instead of trying to hit the ball. In order to achieve this it is important to take an open stance. Your weight should also be slightly favoring your left side and your putter shaft leaning toward the target. The open stance makes it easier to feel the left hand going out and down the target line. When you make the stroke keep the putter head low to the ground past impact and do not try to hit up on the ball! </string>
+    <string name="puttingdesciption3">Grip the putter any way that makes you feel comfortable. Just ensure it does not hinder your left hands role in the stroke. But make sure to grip the club in your fingers. The shaft should run up the lifeline of your left hand for clubface control. Your fingers must contact the grip. You can drop the right forefinger down the shaft, but do not steer with it. Forget about what your palms are doing. Fingers equal feel.</string>
+    <string name="puttingdescription4">If you stare at the ball too long at address it is easy to over read or overthink and hit a bad putt. To avoid this do not even look at the ball. Try looking at a spot just in front of the ball on your target line and rolling the ball over that spot. Put a tee in the ground in front of the ball when you practice. This gets you thinking about the target line instead of the stroke.
+Another trick to free your mind is to picture the ball going in on the high side of the hole on a breaking putt. Most golfers miss low. For this left to right putt. You should want the ball to enter the cup well left of center.</string>
+
+
+    <string name="chippingdescription1">This is a great chipping and pitching drill that you can practice in many different locations. If you can consistently get your chips within a hula hoop distance of the hole you will get up and down regularly.</string>
+    <string name="chippingdescription2">If you are suffering from the so called yips when you are chipping around the greens then this drill can really help you. Chipping yips are caused by the lead hand stopping just before impact and the trail hand flipping.
+        This often occurs from golfers trying to help the ball into the air instead of letting the club face do the work.</string>
+    <string name="chippingdescription3">In order to avoid this take your normal chipping stance with your feet narrow and the ball off the back foot with 60 to 70 percent of your weight on your front foot.
+        Make your normal chipping stroke except drop your trail hand off the grip just before impact.
+        Focus on keeping your lead arm swinging directly towards the target.</string>
+    <string name="chippingdescription4">This is a great chipping drill that you can do from the comfort of your home.
+        Challenging yourself to chip a coin will not only train you make crisper contact with your chip shots but also make chipping a golf ball seem a lot easier.
+        This drill works because it forces you to stay down through the chip and have pin point accuracy with your wedges.
+        Simply set some coins on your living room carpet and try to get clean contact sending the coin into the air.</string>
+    <string name="chippingdescription5">When you are practicing your chipping focus on creating a lower case y shape with your arms and the shaft of the club if you were looking at yourself straight on.
+        Put about 60 to 70 percent of your weight on your front foot and hold this shape throughout your swing. This allows your upper body do the work. This drill is great for short chips around the green and will typically produce a lower and more controlled chip shot.</string>
+
+
+    <string name="irondescription1">Positioning of the golf ball is often overlooked in iron play setup. . The ball should be played no farther back than your sternum and no farther forward than your left armpit. The loft of the club also has an impact on your setup.
+    When using a mid iron such as a 7 iron the ball should be set up in the centre of your stance. A lower lofted club such as a 5 iron should be played further ahead in your stance and a higher lofted club like a 9 iron should be played further back in your stance.</string>
+    <string name="irondescription2">How you take the club back during the onset of the backswing determines what route the rest of your swing will follow. It crucial you execute this step correctly. Many players have a tendency to drop their forward shoulder in their takeaway. If your forward shoulder drops then your weight isn’t going to shift properly to your back foot during the backswing. </string>
+    <string name="irondescription3">Many golfers do not factor in that a different type of golf shot is required when hitting from the rough. When you find yourself in the rough you naturally require a steeper takeaway than an iron shot from the fairway. s the club begins moving back, the wrists should already begin to hinge and not twist, thus allowing for a steeper and shorter backswing to follow. The wrists should already be fully cocked by the time the hands reach hip high on the backswing. You should retain this wrist cock as long as you can. This will allow for cleaner and more consistent strikes.</string>
+    <string name="irondescription4">Whilst practicing at the driving range it is really helpful to lay a club at your feet to help make sure you are swinging on plane and cocking your wrists at the correct time. Even the best professional golfers use this drill to help with their game so it is a drill that helps golfers of all skill levels.</string>
+
+
+    <string name="drivingdesciption">Slicing the golf ball from the tee is major problem for many golfers. An easy tip to get over this problem is simply to tee the ball higher. By doing this you are automatically encouraging yourself to hit up on the golf ball and will avoid slicing it more often.</string>
+    <string name="drivingdesciption2">Another common problem with hitting bad shots with your driver is setting up to them like you are going to hit an iron shot. When using your driver your weight should be more equal between your left and right feet unlike hitting iron shots when your weight is more on your front foot. In your setup make sure that the ball is at the front of your stance just inside your front foot!</string>
+    <string name="drivingdescription3">Swinging too hard in order to try and add yardage to your shots is never a good idea. By doing this you are losing control of your swing and the ball will start going everywhere. Instead of this just swing around 80 percent in order to gain more consistency. Once you have a more consistent swing then you can look at swinging harder and adding more yardage.</string>
+    <string name="drivingdescription4">This tip seems quite obvious but many golfers ignore it. In order to hit fairways more consistently you should play your natural shot shape. If you usually fade it off the tee aim to left hand side of the fairway and let the ball drift in. A common mistake is trying to change your swing mid round to hit straighter shots. This should be done on the driving range. When you are already out on the course play with the shot shape you are comfortable with.</string>
+
+
+    <string name="islanddescription">Established in 1890, The Island is one of the oldest golf courses in Ireland. Bordered by the sea on three sides you would never know this hidden gem is only 30 minutes from Dublin City Centre and only 15 minutes from Dublin Airport. The Island is ranked as one of the best golf courses in Ireland and has hosted big tournaments such as The Amateur Championship in 2019 and The Open Qualifiers between 2013 and 2017.</string>
+
+    <string name="hole1description">The opening hole of The Island is a very difficult one and it is rated the fourth most difficult hole on the golf course. Your tee shot is best placed down the left hand side of the fairway but missing the fairway left is more penal than the right. The elevated green slopes from back to front and requires a well struck iron shot.  </string>
+    <string name="hole2description">The second hole known as Cauls View is named after a former head green-keeper in The Island. This hole is best approached from the left centre of the fairway. On approaching the green it is worth noting that the left bunker tends to collect the ball landed near that side of the green. Aiming for right centre of this two tier green is the best.</string>
+    <string name="hole3description">This is arguably the best designed hole on the golf course. Demanding a good drive and approach shot it plays the second most difficult hole too! The drive is best aimed at the right hand side of the fairway allowing more green to work with for the approach shot. The elevated green slopes from left to right and any shot that misses right will run into a valley below the green making for a very difficult up and down. However, playing safe to the left hand side of the green is not an option as there is a strategically placed green side bunker not visible from the fairway.</string>
+    <string name="hole4description">This recently re-designed dog leg left is the first of two successive blind holes. Driving to the right side of a wide expansive fairway is the best approach to a severely sloping two-tier green.</string>
+    <string name="hole5description">The fifth hole in The Island is the easiest on the course with the only change made to this hole in the last fifty years is an increase in length of around 45 yards through the introduction of a new tee. The blind tee shot should be aimed at the marker post, a well hit shot over this post will run down the a massive slope leaving the player with only 100 yards or less to the hole for their second shot.</string>
+    <string name="hole6description">Short par four of only 286 yards. However, driving from medal or green tee markers presents a different challenge. A tee shot from the medal tee presents more of a dog-leg type of hole, whereas the green tee is situated on the highest point of the links. A tee-shot of around 200 yards ensures the player is short of the fairway bunkers and will only have a wedge into a slightly elevated green.</string>
+    <string name="hole7description">This par four is one of the most challenging driving holes on the links. The drive is ideally aimed through a narrow neck to the centre of the fairway. Usually playing back into the breeze the approach shot will be a wood or long iron for most players. With outbounds on the left the better miss is on the left hand side of the green.</string>
+    <string name="hole8description">This short par four seems straight forward but it is no pushover. The long hitters may decide to try and drive the green while the safer approach is to ensure your ball does not go past the ridge on the end of the fairway. This ridge is approximately 200 yards from the tee box so the ideal shot is around 180 yards to ensure a short iron or wedge left into the green. </string>
+    <string name="hole9description">The front 9 comes to a conclusion with a short par 3 of 153 yards. With bunkers either side of the green, a well struck shot is essential for finding the green. It is crucial to note the pin position as the green is long and undulating, it is difficult to gauge when putting from long distance.</string>
+    <string name="hole10description">The back 9 begins with one of two par fives pon the golf course. With out of bounds on the right and fairway bunkers on the left a straight tee shot on this hole is crucial. A long accurate second shot is required to hit the putting surface so it is often best to lay up on the left hand side of the fairway to allow a straight forward pitch into the green for your third shot.</string>
+    <string name="hole11description">For the 11th hole at the Island, the green is best approached from a tee shot placed on the left hand side of the fairway. This is a semi dog-leg hole with an undulating green sloping from back to front. A good tee shot will leave a relatively straight forward second shot and a birdie chance!</string>
+    <string name="hole12description">One of the hardest holes on the course, the 12th is a semi dog-leg hole where the drive is best placed on the right hand side of the fairway. Although this hole is 407 yards from the back tees, it plays around 450 on most days due to the wind direction. Players will normally have a long iron or hybrid into an elevated green.</string>
+    <string name="hole13description">The 13th is one of the signature holes in The Island somewhat due to the scenery of Malahide Village behind the green. Usually into the wind, it is a really tough hole often playing around 220 yards. The bale out area to the left is clearly visible with out of bounds on the right hand side.</string>
+    <string name="hole14description">Although the 14th is a relatively short par 4, it is still a really tricky hole. This is due to the fact it is one of the narrowest fairways in Europe, only 18 yards wide at its widest point. With a hazard area on the right and heavy rough on the left, a long iron or driver from the tee on tbis hole is more sensible than a driver.</string>
+    <string name="hole15description">The second and final par five on the course is a good birdie opportunity. Usually playing downwind, the ideal position with the drive is down the left hand side of the fairway. There is a good chance of getting on the green in two with a well struck long iron or three wood with the second shot, but watch out for the bunker short left!</string>
+    <string name="hole16description">The third and final par 3 on the course plays around 190 yards most on most days. The green is severely sloping from back to front and there are bunkers either side which also pose a threat. With run off areas left and right of the green, the bst play on this hole is to hit a well struck iron shot into the centre of the green.</string>
+    <string name="hole17description">On first glance the penultimate hole looks like an old classic, however it was not designed until 1990. A tee shot aiming on the left hand side of the fairway is ideal, eliminating the two fairway bunkers on the right hand side. The green slopes from the left to right so for the approach shot into this hole, it is important to aim slightly left of the flag.</string>
+    <string name="hole18description">The longest of the par fours and rated the most difficult hole of the links, straight driving is imperative on this demanding final hole. Bunkers are present either side and short of the green and will collect any errant tee shots.</string>
+
+
+    <array name="handicaps">
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1</item>
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>1.9</item>
+        <item>2</item>
+        <item>2.1</item>
+        <item>2.2</item>
+        <item>2.3</item>
+        <item>2.4</item>
+        <item>2.5</item>
+        <item>2.6</item>
+        <item>2.7</item>
+        <item>2.8</item>
+        <item>2.9</item>
+        <item>3</item>
+        <item>3.1</item>
+        <item>3.2</item>
+        <item>3.3</item>
+        <item>3.4</item>
+        <item>3.5</item>
+        <item>3.6</item>
+        <item>3.7</item>
+        <item>3.8</item>
+        <item>3.9</item>
+        <item>4</item>
+        <item>4.1</item>
+        <item>4.2</item>
+        <item>4.3</item>
+        <item>4.4</item>
+        <item>4.5</item>
+        <item>4.6</item>
+        <item>4.7</item>
+        <item>4.8</item>
+        <item>4.9</item>
+        <item>5</item>
+        <item>5.1</item>
+        <item>5.2</item>
+        <item>5.3</item>
+        <item>5.4</item>
+        <item>5.5</item>
+        <item>5.6</item>
+        <item>5.7</item>
+        <item>5.8</item>
+        <item>5.9</item>
+        <item>6</item>
+        <item>6.1</item>
+        <item>6.2</item>
+        <item>6.3</item>
+        <item>6.4</item>
+        <item>6.5</item>
+        <item>6.6</item>
+        <item>6.7</item>
+        <item>6.8</item>
+        <item>6.9</item>
+        <item>7</item>
+        <item>7.1</item>
+        <item>7.2</item>
+        <item>7.3</item>
+        <item>7.4</item>
+        <item>7.5</item>
+        <item>7.6</item>
+        <item>7.7</item>
+        <item>7.8</item>
+        <item>7.9</item>
+        <item>8</item>
+        <item>8.1</item>
+        <item>8.2</item>
+        <item>8.3</item>
+        <item>8.4</item>
+        <item>8.5</item>
+        <item>8.6</item>
+        <item>8.7</item>
+        <item>8.8</item>
+        <item>8.9</item>
+        <item>9</item>
+        <item>9.1</item>
+        <item>9.2</item>
+        <item>9.3</item>
+        <item>9.4</item>
+        <item>9.5</item>
+        <item>9.6</item>
+        <item>9.7</item>
+        <item>9.8</item>
+        <item>9.9</item>
+        <item>10</item>
+        <item>10.1</item>
+        <item>10.2</item>
+        <item>10.3</item>
+        <item>10.4</item>
+        <item>10.5</item>
+        <item>10.6</item>
+        <item>10.7</item>
+        <item>10.8</item>
+        <item>10.9</item>
+        <item>11</item>
+        <item>11.1</item>
+        <item>11.2</item>
+        <item>11.3</item>
+        <item>11.4</item>
+        <item>11.5</item>
+        <item>11.6</item>
+        <item>11.7</item>
+        <item>11.8</item>
+        <item>11.9</item>
+        <item>12</item>
+        <item>12.1</item>
+        <item>12.2</item>
+        <item>12.3</item>
+        <item>12.4</item>
+        <item>12.5</item>
+        <item>12.6</item>
+        <item>12.7</item>
+        <item>12.8</item>
+        <item>12.9</item>
+        <item>13</item>
+        <item>13.1</item>
+        <item>13.2</item>
+        <item>13.3</item>
+        <item>13.4</item>
+        <item>13.5</item>
+        <item>13.6</item>
+        <item>13.7</item>
+        <item>13.8</item>
+        <item>13.9</item>
+        <item>14</item>
+        <item>14.1</item>
+        <item>14.2</item>
+        <item>14.3</item>
+        <item>14.4</item>
+        <item>14.5</item>
+        <item>14.6</item>
+        <item>14.7</item>
+        <item>14.8</item>
+        <item>14.9</item>
+        <item>15</item>
+        <item>15.1</item>
+        <item>15.2</item>
+        <item>15.3</item>
+        <item>15.4</item>
+        <item>15.5</item>
+        <item>15.6</item>
+        <item>15.7</item>
+        <item>15.8</item>
+        <item>15.9</item>
+        <item>16</item>
+        <item>16.1</item>
+        <item>16.2</item>
+        <item>16.3</item>
+        <item>16.4</item>
+        <item>16.5</item>
+        <item>16.6</item>
+        <item>16.7</item>
+        <item>16.8</item>
+        <item>16.9</item>
+        <item>17</item>
+        <item>17.1</item>
+        <item>17.2</item>
+        <item>17.3</item>
+        <item>17.4</item>
+        <item>17.5</item>
+        <item>17.6</item>
+        <item>17.7</item>
+        <item>17.8</item>
+        <item>17.9</item>
+        <item>18</item>
+        <item>18.1</item>
+        <item>18.2</item>
+        <item>18.3</item>
+        <item>18.4</item>
+        <item>18.5</item>
+        <item>18.6</item>
+        <item>18.7</item>
+        <item>18.8</item>
+        <item>18.9</item>
+        <item>19</item>
+        <item>19.1</item>
+        <item>19.2</item>
+        <item>19.3</item>
+        <item>19.4</item>
+        <item>19.5</item>
+        <item>19.6</item>
+        <item>19.7</item>
+        <item>19.8</item>
+        <item>19.9</item>
+        <item>20</item>
+        <item>20.1</item>
+        <item>20.2</item>
+        <item>20.3</item>
+        <item>20.4</item>
+        <item>20.5</item>
+        <item>20.6</item>
+        <item>20.7</item>
+        <item>20.8</item>
+        <item>20.9</item>
+        <item>21</item>
+        <item>21.1</item>
+        <item>21.2</item>
+        <item>21.3</item>
+        <item>21.4</item>
+        <item>21.5</item>
+        <item>21.6</item>
+        <item>21.7</item>
+        <item>21.9</item>
+        <item>22</item>
+        <item>22.1</item>
+        <item>22.2</item>
+        <item>22.3</item>
+        <item>22.4</item>
+        <item>22.5</item>
+        <item>22.6</item>
+        <item>22.7</item>
+        <item>22.8</item>
+        <item>22.9</item>
+        <item>23</item>
+        <item>23.1</item>
+        <item>23.2</item>
+        <item>23.3</item>
+        <item>23.4</item>
+        <item>23.5</item>
+        <item>23.6</item>
+        <item>23.7</item>
+        <item>23.8</item>
+        <item>23.9</item>
+        <item>24</item>
+        <item>24.1</item>
+        <item>24.2</item>
+        <item>24.3</item>
+        <item>24.4</item>
+        <item>24.5</item>
+        <item>24.6</item>
+        <item>24.7</item>
+        <item>24.8</item>
+        <item>24.9</item>
+        <item>25</item>
+        <item>25.1</item>
+        <item>25.2</item>
+        <item>25.3</item>
+        <item>25.4</item>
+        <item>25.5</item>
+        <item>25.6</item>
+        <item>25.7</item>
+        <item>25.8</item>
+        <item>25.9</item>
+        <item>26</item>
+        <item>26.1</item>
+        <item>26.2</item>
+        <item>26.3</item>
+        <item>26.4</item>
+        <item>26.5</item>
+        <item>26.6</item>
+        <item>26.7</item>
+        <item>26.8</item>
+        <item>26.9</item>
+        <item>27</item>
+        <item>27.1</item>
+        <item>27.2</item>
+        <item>27.3</item>
+        <item>27.4</item>
+        <item>27.5</item>
+        <item>27.6</item>
+        <item>27.7</item>
+        <item>27.8</item>
+        <item>27.9</item>
+        <item>28</item>
+
+
+    </array>
+
+
+    <array name="Courses">
+        <item>Adere Manor</item>
+        <item>Ardglass</item>
+        <item>Ballyliffin Golf Club</item>
+        <item>Carton House</item>
+        <item>Corballis</item>
+        <item>Corrstown</item>
+        <item>Donabate Golf Club</item>
+        <item>European Club</item>
+        <item>Lahinch Golf Club</item>
+        <item>Portmarnock Links</item>
+        <item>Portmarnock(Old Course)</item>
+        <item>Portrush</item>
+        <item>Royal Dublin</item>
+        <item>St Annes Golf Club</item>
+        <item>Swords Open</item>
+        <item>Royal Dublin</item>
+        <item>The K Club</item>
+        <item>The Island Golf Club</item>
+        <item>Tralee Golf Club</item>
+        <item>Trump International Golf Links Ireland</item>
+        <item>Waterville Golf Links</item>
+
+
+    </array>
 </resources>

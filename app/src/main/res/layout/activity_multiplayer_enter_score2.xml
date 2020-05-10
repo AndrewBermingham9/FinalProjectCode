@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplayerEnterScore2"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Island Golf Club"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#090909"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:padding="8dp"
+        android:text="Hole 1: Patridge Hollow, Par 4 "
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Player1"
+            android:layout_width="110dp"
+            android:layout_height="106dp"
+            android:padding="8dp"
+            android:text="Player 1:"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Eagle"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Eagles are rare but usually found on par 5's" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Eagle: 2"
+            android:textColor="#090909" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Birdie"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="A birdie on any hole is an excellent score" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birdie: 3"
+            android:textColor="#090909" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Par"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Consistent pars make for a more consistent round" />
+
+        </LinearLayout>
+        <View
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Par: 4"
+            android:textColor="#090909" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Bogey"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Not too bad, clean it up a little on the next hole!" />
+
+        </LinearLayout>
+        <View
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bogey: 5"
+            android:textColor="#090909" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Double Bogey"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Too many of these can destroy a good round!" />
+
+        </LinearLayout>
+        <View
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/choice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double Bogey: 6"
+            android:textColor="#090909" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_border"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <ImageView
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="#4a4a4a" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="182dp"
+                android:layout_height="match_parent"
+                android:text="Triple Bogey +"
+                android:textColor="#4a4a4a"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="These need to be avoided at all costs!" />
+
+        </LinearLayout>
+        <View
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/choice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triple Bogey +: 7"
+            android:textColor="#090909" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/scoretext"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:text="Player 1: Current Score:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="38dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/scoretext2"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:text="Player 2: Current Score:"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="38dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

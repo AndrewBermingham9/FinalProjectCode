@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChippingTips">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/ChippingTipsTitletv"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="212dp"
+                android:layout_marginLeft="212dp"
+                android:layout_marginEnd="212dp"
+                android:layout_marginRight="212dp"
+                android:layout_marginBottom="85dp"
+                android:text="Chipping Tips"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ChippingTipsSubTitletv"
+                android:layout_width="402dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="139dp"
+                android:layout_marginLeft="139dp"
+                android:layout_marginEnd="132dp"
+                android:layout_marginRight="132dp"
+                android:layout_marginBottom="85dp"
+                android:text="Get better at all kinds of chip shots using these drills and guides!"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/ChippingDrill1Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="1. The Ring Chipping Drill"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chipping2imagepix" />
+
+            <TextView
+                android:id="@+id/ChippingDrill1text"
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:text="@string/chippingdescription1"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/ChippingDrill2Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="2. Trail Hand Release Chipping"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chipping3imagepix" />
+
+            <TextView
+                android:id="@+id/ChippingDrill2text"
+                android:layout_width="591dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+
+                android:text="@string/chippingdescription2"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/ChippingDrill2text2"
+                android:layout_width="601dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="98dp"
+                android:text="@string/chippingdescription3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ChippingDrill3Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="3. Try Chipping a Coin!"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="393dp"
+                android:layout_height="284dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chippingimagepixcoin" />
+
+
+            <TextView
+                android:id="@+id/ChippingDrill3text"
+                android:layout_width="577dp"
+                android:layout_height="242dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+
+                android:text="@string/chippingdescription4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ChippingDrill4Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="4. Triangle-Shape Chipping Drill"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chipping4imagepix" />
+
+            <TextView
+                android:id="@+id/ChippingDrill4text"
+                android:layout_width="601dp"
+                android:layout_height="297dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+
+                android:text="@string/chippingdescription5"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Backbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back to Home Page"
+                android:layout_gravity="center"
+                android:layout_marginBottom="150dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".IronTips">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/IronTipsTitletv"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="212dp"
+                android:layout_marginLeft="212dp"
+                android:layout_marginEnd="212dp"
+                android:layout_marginRight="212dp"
+                android:layout_marginBottom="85dp"
+                android:text="Iron play Tips"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/IronTipsSubTitletv"
+                android:layout_width="402dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="139dp"
+                android:layout_marginLeft="139dp"
+                android:layout_marginEnd="132dp"
+                android:layout_marginRight="132dp"
+                android:layout_marginBottom="85dp"
+                android:text="These drills will help you hit more consistent iron shots and lower your score"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/IronDrill1Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="1. Improving your Setup"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/iron3image" />
+
+
+            <TextView
+                android:id="@+id/IronDrill1text"
+                android:layout_width="wrap_content"
+                android:layout_height="271dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/irondescription1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/IronDrill2Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="2. Improving your Takeaway"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/iron2image" />
+
+            <TextView
+                android:id="@+id/IronDrill2text"
+                android:layout_width="wrap_content"
+                android:layout_height="259dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/irondescription2"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/IronDrill3Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="3. Rough Takeaway"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/iron6image" />
+
+            <TextView
+                android:id="@+id/IronDrill3text"
+                android:layout_width="701dp"
+                android:layout_height="216dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="98dp"
+                android:text="@string/irondescription3"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/IronDrill4Title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginEnd="237dp"
+                android:layout_marginRight="237dp"
+                android:layout_marginBottom="85dp"
+                android:text="4. Lining up your shots"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="772dp"
+                android:layout_height="440dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="107dp"
+                android:layout_marginLeft="107dp"
+                android:layout_marginEnd="109dp"
+                android:layout_marginRight="109dp"
+                android:layout_marginBottom="85dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/iron7image" />
+
+
+            <TextView
+                android:id="@+id/IronDrill4text"
+                android:layout_width="571dp"
+                android:layout_height="198dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="59dp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:layout_marginBottom="98dp"
+                android:text="@string/irondescription4"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Backbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back to Home Page"
+                android:layout_gravity="center"
+                android:layout_marginBottom="150dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,8 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    //Variable Section
     private EditText Name;
     private EditText Password;
     private TextView Info;
@@ -28,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView userRegistration;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
+    private TextView forgotPassword;
 
 
     @Override
@@ -35,11 +39,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+       // MyAppApplication mApp = ((MyAppApplication)getApplicationContext());
+
+        //Variable Initialisation
         Name = (EditText) findViewById(R.id.etName);
         Password = (EditText) findViewById(R.id.etUserPassword);
         Info = (TextView) findViewById(R.id.tvinfo);
         Login = (Button) findViewById(R.id.btnLogin);
         userRegistration = (TextView) findViewById(R.id.tvRegister);
+        forgotPassword = (TextView)findViewById(R.id.tvForgotPassword);
 
         Info.setText("No of attempts remaining: 5");
 
@@ -53,13 +61,23 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, SecondActivity.class));
         }
 
+
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 validate(Name.getText().toString(), Password.getText().toString());
             }
         });
+        //Navigate user to new PasswordActivity to reset their password
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, PasswordActivity.class));
+            }
+        });
 
+
+        //Navigate user to RegistrationActivity to create their account
         userRegistration.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    //Check if login details are correct
     private void validate (String userName, String userPassword) {
 
         progressDialog.setMessage("Checking login details, Please wait a few moments");
@@ -78,12 +96,12 @@ public class MainActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     progressDialog.dismiss();
-                    Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this, SecondActivity.class));
+
+                    checkEmailVerification();
                 } else{
                     Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                 counter--;
-                Info.setText("No of attempts remaining: "+ counter);
+                Info.setText("Number of attempts remaining: "+ counter);
                 progressDialog.dismiss();
                 if (counter == 0) {
                     Login.setEnabled(false);
@@ -94,11 +112,20 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-
     }
 
+    private void checkEmailVerification(){
+        FirebaseUser firebaseUser = firebaseAuth.getInstance().getCurrentUser();
+        Boolean emailflag = firebaseUser.isEmailVerified();
 
-
+        if(emailflag){
+            finish();
+            startActivity(new Intent(MainActivity.this,SecondActivity.class));
+        }else{
+            Toast.makeText(this, "Please verify your email", Toast.LENGTH_SHORT).show();
+            firebaseAuth.signOut();
+        }
 
     }
+}
 

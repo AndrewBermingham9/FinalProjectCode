@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,19 +16,26 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class RegestrationActivity extends AppCompatActivity {
 
-    private EditText userName, userPassword, userEmail;
+    //Variable Section
+    private EditText userName, userPassword, userEmail, userAge, userHandicap, userCourse;
     private Button regButton;
     private TextView userLogin;
     private FirebaseAuth firebaseAuth;
+    String email, name, age, password, course;
+    double handicap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regestration);
         setupUIViews();
+        //Variable Initialisation
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -45,10 +53,11 @@ public class RegestrationActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
 
                         if(task.isSuccessful()) {
-                            Toast.makeText(RegestrationActivity.this, "Sign Up Successful", Toast.LENGTH_SHORT).show();
+                            sendEmailVerification();
+                            sendUserData();
+                            Toast.makeText(RegestrationActivity.this, "Successfully Registered, Upload complete!", Toast.LENGTH_SHORT).show();
+                            finish();
                             startActivity(new Intent(RegestrationActivity.this, MainActivity.class));
-                        }else {
-                            Toast.makeText(RegestrationActivity.this, "Sign Up Failed", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -62,13 +71,18 @@ public class RegestrationActivity extends AppCompatActivity {
             }
         });
     }
-
+    //Variable Initialisation
     private void setupUIViews() {
         userName = (EditText) findViewById(R.id.etUsername);
         userPassword = (EditText) findViewById(R.id.etUserPassword);
         userEmail = (EditText) findViewById(R.id.etUserEmail);
         regButton = (Button) findViewById(R.id.btnRegister);
         userLogin = (TextView) findViewById(R.id.tvUserLogin);
+        userAge = (EditText) findViewById(R.id.etAge);
+        userHandicap = (EditText) findViewById(R.id.etHandicap);
+        userCourse = (EditText) findViewById(R.id.etCourse);
+
+
 
 
     }
@@ -76,11 +90,15 @@ public class RegestrationActivity extends AppCompatActivity {
     private Boolean validate(){
         Boolean result = false;
 
-        String name = userName.getText().toString();
-        String password = userPassword.getText().toString();
-        String email = userEmail.getText().toString();
-
-        if (name.isEmpty() || password.isEmpty() || email.isEmpty()){
+        name = userName.getText().toString();
+        password = userPassword.getText().toString();
+        email = userEmail.getText().toString();
+        age = userAge.getText().toString();
+        String strhandicap = userHandicap.getText().toString();
+        handicap = Double.parseDouble(strhandicap);
+        course = userCourse.getText().toString();
+        //If sections are left blank verification email is not sent and account is not saved
+        if (name.isEmpty() || password.isEmpty() || email.isEmpty() || age.isEmpty()   || course.isEmpty()){
             Toast.makeText(this, "Please enter all details", Toast.LENGTH_SHORT).show();
 
         }else{
@@ -88,6 +106,37 @@ public class RegestrationActivity extends AppCompatActivity {
         }
         return result;
     }
+    //Send verification email to user
+    private void sendEmailVerification(){
+        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+        if(firebaseUser != null){
+            firebaseUser.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    if(task.isSuccessful()){
+                        sendUserData();
+                        Toast.makeText(RegestrationActivity.this, "Successfully Registered, Verification email has been sent!", Toast.LENGTH_SHORT).show();
+                        firebaseAuth.signOut();
+                        finish();
+                        startActivity(new Intent(RegestrationActivity.this, MainActivity.class));
+                    }else{
+                        Toast.makeText(RegestrationActivity.this, "Verfication email has not been sent",Toast.LENGTH_SHORT).show();
+                    }
+
+                }
+            });
+        }
+    }
+    //Get a link to the database section
+    private void  sendUserData(){
+        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+
+        DatabaseReference myRef = firebaseDatabase.getReference("Profiles/"+firebaseAuth.getUid());
+        UserProfile userProfile = new UserProfile(age, email, name, handicap, course);
+        myRef.setValue(userProfile);
+    }
+
+
 }
 
 
